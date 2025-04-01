@@ -109,25 +109,26 @@ The Vertex AI plugin provides access to the Gemini models. The initialization co
 6. Define a flow for your application:
 
 ```nodejs
-export const menuSuggestionFlow = ai.defineFlow(
+export const restaurantSuggestionFlow = ai.defineFlow(
 {
-    name: 'menuSuggestionFlow',
+    name: 'restaurantSuggestionFlow',
     inputSchema: z.string(),
     outputSchema: z.string(),
 },
-async (subject) => {
+async (country) => {
     // Construct a request and send it to the model API.
     const llmResponse = await ai.generate({
-        prompt: `Suggest an item for the menu of a ${subject} themed restaurant`,
-        model: gemini15Flash,
+        prompt: `Suggest a restaurant based on the ${country} provided.`,
+        model: gemini20Flash,
         config: {
             temperature: 1,
         },
     });
 
-    // Handle the response from the model API. In this sample, we just convert
-    // it to a string, but more complicated flows might coerce the response into
-    // structured output or chain the response into another LLM call, etc.
     return llmResponse.text;
 });
 ```
+
+A __flow__ to suggest a restaurant based on a provided country. The __country__ of the desired cuisine is passed in as a parameter and inserted into the prompt. The model used is `gemini20Flash` with a __temperature__ setting of 1.
+
+7. 
