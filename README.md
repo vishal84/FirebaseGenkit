@@ -210,5 +210,5 @@ A nice feature of Firebase Genkit is that it allows you to trace calls made thro
 
 2. Click on the most recent trace shown to view the __POST__ request submitted to the model and the various configurations and parameters passed in.
 
-![Trace](img/trace.png)
+![Trace](img/genkit_ui_trace.png)
 
