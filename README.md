@@ -85,7 +85,7 @@ The dependency list should look similar to the following:
 ```nodejs
 import { z, genkit } from 'genkit';
 import { vertexAI } from '@genkit-ai/vertexai';
-import { gemini15Flash } from '@genkit-ai/vertexai';
+import { gemini20Flash } from '@genkit-ai/vertexai';
 import { logger } from 'genkit/logging';
 import { enableGoogleCloudTelemetry } from '@genkit-ai/google-cloud';
 import { startFlowServer } from '@genkit-ai/express';
@@ -131,4 +131,10 @@ async (country) => {
 
 A __flow__ to suggest a restaurant based on a provided country. The __country__ of the desired cuisine is passed in as a parameter and inserted into the prompt. The model used is `gemini20Flash` with a __temperature__ setting of 1.
 
-7. 
+7. Add the following code to start the flow server, which exposes your flow as an __HTTP__ endpoint:
+
+```
+startFlowServer({
+    flows: [restaurantSuggestionFlow],
+});
+```
