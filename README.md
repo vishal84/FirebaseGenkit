@@ -50,3 +50,9 @@ This command creates a `package.json` file in the `genkit-intro` directory.
 npm install -D genkit-cli@1.4.0
 ```
 
+3. To install the core Genkit packages and dependencies for your app, run the following command:
+
+```
+npm install genkit@1.4.0 --save
+npm install @genkit-ai/vertexai@1.4.0 @genkit-ai/google-cloud@1.4.0 @genkit-ai/express@1.4.0 --save
+```
