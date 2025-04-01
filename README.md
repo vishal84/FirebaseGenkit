@@ -202,3 +202,13 @@ Okay, based on your criteria of **Italian restaurants in New York City with a vi
 I hope this helps you find the perfect spot for your meal with a view!
 ```
 
+## Explore Gemini Call Traces
+
+A nice feature of Firebase Genkit is that it allows you to trace calls made through the UI in a __Trace__ view.
+
+1. In the left menu, click on __Traces__.
+
+2. Click on the most recent trace shown to view the __POST__ request submitted to the model and the various configurations and parameters passed in.
+
+![Trace](img/trace.png)
+
