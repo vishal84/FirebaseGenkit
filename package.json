@@ -1,0 +1,29 @@
+{
+  "name": "firebasegenkit",
+  "version": "1.0.0",
+  "description": "This repository demonstrates a simple `nodejs` application that uses __Firebase Genkit__ and configures access to various Gemini models including `gemini-2.0-flash` in Google Cloud's Vertex AI Platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal84/FirebaseGenkit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishal84/FirebaseGenkit/issues"
+  },
+  "homepage": "https://github.com/vishal84/FirebaseGenkit#readme",
+  "devDependencies": {
+    "genkit-cli": "^1.4.0"
+  },
+  "dependencies": {
+    "@genkit-ai/express": "^1.4.0",
+    "@genkit-ai/google-cloud": "^1.4.0",
+    "@genkit-ai/vertexai": "^1.4.0",
+    "genkit": "^1.4.0"
+  }
+}

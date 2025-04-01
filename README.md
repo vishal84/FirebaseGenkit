@@ -162,7 +162,21 @@ Wait for the command to return the __Genkit Developer UI__ URL in the terminal o
 
 4. Enter __4000__ for the __Port Number__ and click __Change and Preview__.
 
+![Port Number](img/change_and_preview.png)
+
 The Genkit Developer UI will open in a separate tab of your browser.
 
-## Use the UI to test the Genkit Flow
+## Test the Restaurant Suggestion Flow
+
+The Genkit Developer UI will take a moment to load and look similar to the following:
+
+![Genkit Developer UI](img/genkit_ui.png)
+
+1. To explore the predefined workflow created earlier, in the left panel click __Flows__ and then click __restaurantSuggestionFlow__.
+
+2. For __Input JSON__ type the following:
+
+```
+Italian. Find me two places in New York City with a view.
+```
 
