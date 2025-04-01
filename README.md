@@ -138,3 +138,31 @@ startFlowServer({
     flows: [restaurantSuggestionFlow],
 });
 ```
+
+## Test the app in the Genkit Developer UI
+
+The Genkit developer UI is a local web app that you can use to interact with models, retrievers, flows and other actions in your Genkit project.
+
+In this task, you use the Genkit developer UI to explore AI workflows, models and parameters and analyze traces for your app.
+
+### Launch the Genkit Developer UI
+
+1. To launch the Genkit Developer UI from your __Cloud Shell__ terminal run the following:
+
+```
+cd ~/genkit-demo
+npx genkit start -- npx tsx src/index.ts
+```
+
+2. Press `ENTER` to continue.
+
+Wait for the command to return the __Genkit Developer UI__ URL in the terminal output before proceeding.
+
+3. In the __Web Preview__ menu of __Cloud Shell__, click __Change port__.
+
+4. Enter __4000__ for the __Port Number__ and click __Change and Preview__.
+
+The Genkit Developer UI will open in a separate tab of your browser.
+
+## Use the UI to test the Genkit Flow
+
