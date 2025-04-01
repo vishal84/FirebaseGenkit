@@ -212,3 +212,4 @@ A nice feature of Firebase Genkit is that it allows you to trace calls made thro
 
 ![Trace](img/genkit_ui_trace.png)
 
+You can now experiment with various Gemini models very easily with the Firebase Genkit UI.
