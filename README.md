@@ -82,7 +82,7 @@ The dependency list should look similar to the following:
 
 4. Go to the `src` folder and open the `src/index.ts` file. Add the following import library references to the `index.ts` file:
 
-```
+```nodejs
 import { z, genkit } from 'genkit';
 import { vertexAI } from '@genkit-ai/vertexai';
 import { gemini15Flash } from '@genkit-ai/vertexai';
