@@ -174,9 +174,31 @@ The Genkit Developer UI will take a moment to load and look similar to the follo
 
 1. To explore the predefined workflow created earlier, in the left panel click __Flows__ and then click __restaurantSuggestionFlow__.
 
-2. For __Input JSON__ type the following:
+2. For __Input JSON__ input the following then hit __Run__.
 
 ```
-Italian. Find me two places in New York City with a view.
+"Italian. Find me two places in New York City with a view."
+```
+
+3. You should see a generated output similar to the following:
+
+```output
+Okay, based on your criteria of **Italian restaurants in New York City with a view**, here are two suggestions:
+
+1.  **Cecconi's Dumbo**
+    *   **Cuisine:** Classic Italian
+    *   **View:** Offers a stunning panoramic view of the Manhattan skyline, the Brooklyn Bridge, and the Manhattan Bridge. It's located right on the water in Dumbo, Brooklyn.
+    *   **Ambiance:** Chic, upscale, and lively. Great for a special occasion or a romantic dinner.
+    *   **Things to note:**
+        *   Reservations are highly recommended, especially for prime time slots and outdoor seating.
+
+2.  **Manhatta**
+    *   **Cuisine:** Contemporary American with French influence.
+    *   **View:** Located on the 60th floor of 28 Liberty Street in the Financial District, it offers unparalleled, sweeping views of the entire Manhattan skyline, the harbor, and beyond.
+    *   **Ambiance:** Elegant, sophisticated, and refined.
+    *   **Things to note:**
+        *   Offers a more upscale dining experience.
+
+I hope this helps you find the perfect spot for your meal with a view!
 ```
 
